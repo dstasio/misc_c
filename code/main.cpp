@@ -65,6 +65,7 @@ int main(int argc, char **args)
 
     read_zip(zip_file.data, (u32) zip_file.size);
 
+//    scanf_s("%n");
     system("pause");
     return 0;
 }
