@@ -4,3 +4,4 @@ build/*
 *.*sh  
 backup/*
 session.vim
+*.rdbg
