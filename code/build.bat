@@ -8,6 +8,5 @@ pushd ..\build
 
 REM 64-bit build
 cl %CommonCompilerFlags% ..\code\main.cpp -Fmmain.map /link %CommonLinkerFlags%
-REM cl /EHsc ..\code\UniNo.cpp -Fmunino.map /link %CommonLinkerFlags%
 popd
 
